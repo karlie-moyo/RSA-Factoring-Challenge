@@ -2,6 +2,16 @@
 
 ![undraw_programming_re_kg9v](https://user-images.githubusercontent.com/110098940/219950176-b01d033c-dde0-4727-879b-cfe5575af5e0.png)
 
+| PR.NO | PROJECT                                                                           | DESCRIPTION |
+| ----- | --------------------------------------------------------------------------------- | ----------- |
+|  🗂️  | [Tests 📁](./tests/)                                            | The "tests" folder in the RSA Factory challenge includes scripts to validate the RSA algorithm's functionality, covering encryption, decryption, key generation, prime number checks, and edge cases. It ensures the implementation is correct and efficient.          |
+| 0x00  | [Factor](./factor.c/)                                         | The Factor.c file implements functions for prime factorization and primality testing, which are crucial for generating RSA keys and ensuring the security of the encryption process. It helps in breaking down large numbers and verifying their primality.            |
+| 0x01  | [Factors](./factors/)                                         | The Factors file in the RSA Factory challenge likely contains functions related to factoring large numbers, such as finding prime factors and testing for primality. These functions are essential for tasks like RSA key generation and breaking down numbers used in encryption.            |
+| 0x02  | [Rsa](./rsa/)                                                 | contains the core implementation of the RSA encryption and decryption algorithm. It includes functions for key generation (public and private keys), encryption, and decryption. The file also handles the mathematical operations required for RSA, such as modular exponentiation and the use of large prime numbers.  |
+| 0x03  | [Rsa.c](./rsa.c/)                                             | The RSA.c file contains the implementation of the RSA encryption algorithm, including functions for key generation, encryption, and decryption. It handles essential operations like modular exponentiation and uses prime numbers for secure key creation.            |
+| 0x04  | [Test](./test1/)                                              | contains a set of initial tests to verify the functionality of the RSA algorithm. It may check basic operations like key generation, encryption, and decryption to ensure the algorithm works correctly on a small scale before testing larger numbers or more complex scenarios.            |
+| 0x05  | [Wfactors](./wfactors.py/)                                    |  contains functions for handling the factorization of large numbers, particularly for finding prime factors. It may include tools for efficiently factorizing numbers and testing for primality, which are important for tasks like key generation and breaking down RSA-encrypted data.           |
+
 ## Description
 
 This project is designed to factorize as many numbers as possible into a product of two smaller numbers.
@@ -26,6 +36,24 @@ please any contribution towards making this project work for bignums will be hig
 - [How does HTTPS provide security?](https://stackoverflow.com/questions/3968095/how-does-https-provide-security)
 - [Prime Factorization](https://privacycanada.net/mathematics/prime-factorization/)
 
-## Author
+### AUTHOR:
+<details>
+    <summary>KARLIE MOYO</summary>
+    <ul>
+        <li>
+            <a href="https://github.com/karlie-moyo">Github</a>
+        </li>
+        <li>
+            <a href="https://twitter.com/karlieemoyo">Twitter</a>
+        </li>
+        <li>
+            <a href="https://karlieemoyo@gmail.com">e-mail</a>
+        </li>
+    </ul>
+</details>
 
-[Karlie Moyo](www.github.com/karlie-crypto)
+---
+
+### Acknowledgements  :pray:
+___
+All of the work in this project was conducted as part of the UoS-SE program's curriculum.
