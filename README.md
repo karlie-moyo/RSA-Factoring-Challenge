@@ -13,6 +13,7 @@
 | 0x05  | [Wfactors](./wfactors.py/)                                    |  contains functions for handling the factorization of large numbers, particularly for finding prime factors. It may include tools for efficiently factorizing numbers and testing for primality, which are important for tasks like key generation and breaking down RSA-encrypted data.           |
 
 ## Description
+The RSA Factoring Challenge is a cryptographic challenge that involves factoring large semiprime numbers (numbers that are the product of two primes). The goal is to break RSA encryption by factoring these large numbers, which is central to the security of RSA. The challenge provides several large RSA-modulus values, and the task is to find their prime factors. Success in factoring these numbers undermines the RSA encryption system, demonstrating the importance of using sufficiently large primes for key generation.
 
 This project is designed to factorize as many numbers as possible into a product of two smaller numbers.
 It works perfectly for that except the case of bignums (numbers bigger than long long unsigned integers)
